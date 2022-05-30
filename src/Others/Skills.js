@@ -1,24 +1,22 @@
 import React from "react";
 
-const Experience = () => {
+const Skills = () => {
   return (
     <React.Fragment>
-      <section id="experience">
+      <section>
         <div className="container">
           <div className="row">
             <div className="col">
-              <div>
-                <h2>My resume</h2>
-              </div>
-              <p>
-                Text
-              </p>
+              <h2>My buzzwords</h2>
             </div>
+            <p>Text</p>
           </div>
           <div className="row">
             <div className="col">
-              <div className="">
-                
+              <div className="skills">
+                <div className="skill_container">
+                  <div className="skill_name"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -28,4 +26,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;

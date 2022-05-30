@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../Others/About";
+import Skills from "../Others/Skills";
 import Portfolio from "../Others/Portfolio";
 import Experience from "../Others/Experience";
 import Contact from "../Others/Contact";
@@ -21,6 +22,10 @@ const Home = () => {
         </div>
       </section>
       <About />
+      <Skills />
+      <Portfolio />
+      <Experience />
+      <Contact />
     </React.Fragment>
   );
 };
