@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import Header from "./Header";
 import Home from "../Home/Home";
@@ -10,14 +10,14 @@ function Layout() {
     <React.Fragment>
       <Header />
       <div className="container">
-        <Routes>
+        <Switch>
           <Route exact path="/">
             <Home />
           </Route>
           <Route>
             <NotFound />
           </Route>
-        </Routes>
+        </Switch>
       </div>
     </React.Fragment>
   );
