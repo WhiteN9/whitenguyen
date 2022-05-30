@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "react-scroll";
 
 //a flexible bar if mobile?
 
@@ -7,13 +8,23 @@ const Header = () => {
     <header>
       <div className="container">
         <nav>
-          {/* <a>W.</a> */}
+          <Link to="/">W.N </Link>
           <ul>
-            {/* <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Contact</a></li> */}
+            <li>
+              <Link to="/">Home </Link>
+            </li>
+            <li>
+              <Link to="/about">About </Link>
+            </li>
+            <li>
+              <Link to="/portfolio">Portfolio </Link>
+            </li>
+            <li>
+              <Link to="/experience">Experience </Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact </Link>
+            </li>
           </ul>
         </nav>
       </div>
