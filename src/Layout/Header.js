@@ -5,16 +5,18 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <nav>
-        {/* <a>W.</a> */}
-        <ul>
-          {/* <li><a href="#">Home</a></li>
+      <div className="container">
+        <nav>
+          {/* <a>W.</a> */}
+          <ul>
+            {/* <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Experience</a></li>
           <li><a href="#">Contact</a></li> */}
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 };
