@@ -3,173 +3,56 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="header_wrap fixed-top light_skin hover_menu_style2 transparent-header">
+    <header className="">
       <div className="container">
-        <nav className="navbar navbar-expand-lg">
-          <a className="navbar-brand page-scroll" href="#home_section">
-            <img
-              className="logo_light"
-              src="assets/images/logo_white.png"
-              alt="logo"
-            />
-            <img
-              className="logo_dark"
-              src="assets/images/logo_dark.png"
-              alt="logo"
-            />
-            <img
-              className="logo_default"
-              src="assets/images/logo_dark.png"
-              alt="logo"
-            />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            {" "}
-            <span className="ion-android-menu"></span>{" "}
-          </button>
-          <div
-            className="collapse navbar-collapse justify-content-end"
-            id="navbarSupportedContent"
-          >
-            <a className="navbar-brand page-scroll" href="#home_section">
-              <img
-                className="logo_light"
-                src="assets/images/logo_white.png"
-                alt="logo"
-              />
-              <img
-                className="logo_dark"
-                src="assets/images/logo_dark.png"
-                alt="logo"
-              />
-              <img
-                className="logo_default"
-                src="assets/images/logo_dark.png"
-                alt="logo"
-              />
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
+              W.
             </a>
-            <ul className="navbar-nav">
-              <li>
-                <a className="nav-link active page-scroll" href="#home_section">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a className="nav-link page-scroll" href="#about">
-                  About
-                </a>
-              </li>
-              <li>
-                <a className="nav-link page-scroll" href="#services">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a className="nav-link page-scroll" href="#portfolio">
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a className="nav-link page-scroll" href="#experience">
-                  Experience
-                </a>
-              </li>
-              <li>
-                <a className="nav-link page-scroll" href="#blog">
-                  blog
-                </a>
-              </li>
-              <li>
-                <a className="nav-link page-scroll" href="#contact">
-                  contact
-                </a>
-              </li>
-              <li className="dropdown">
-                <a
-                  className="dropdown-toggle nav-link"
-                  href="asdsa"
-                  data-toggle="dropdown"
-                >
-                  Pages
-                </a>
-                <div className="dropdown-menu dropdown-reverse">
-                  <ul>
-                    <li>
-                      <a
-                        className="dropdown-item nav-link nav_item"
-                        href="portfolio-detail-dark.html"
-                      >
-                        portfolio detail dark
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item nav-link nav_item"
-                        href="portfolio-detail-sidemenu-dark.html"
-                      >
-                        portfolio detail sidemenu dark
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item nav-link nav_item"
-                        href="portfolio-detail-sidemenu-white.html"
-                      >
-                        portfolio detail sidemenu white
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item nav-link nav_item"
-                        href="portfolio-detail-white.html"
-                      >
-                        portfolio detail white
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item nav-link nav_item"
-                        href="blog-detail-dark.html"
-                      >
-                        blog detail dark
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item nav-link nav_item"
-                        href="blog-detail-sidemenu-dark.html"
-                      >
-                        blog detail sidemenu dark
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item nav-link nav_item"
-                        href="blog-detail-sidemenu-white.html"
-                      >
-                        blog detail sidemenu white
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item nav-link nav_item"
-                        href="blog-detail-white.html"
-                      >
-                        blog detail white
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    About
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Portfolio
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Experience
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </div>
@@ -178,3 +61,37 @@ const Header = () => {
 };
 export default Header;
 
+{
+  /* <li className="nav-item dropdown">
+<a
+  className="nav-link dropdown-toggle"
+  href="#"
+  id="navbarDropdown"
+  role="button"
+  data-bs-toggle="dropdown"
+  aria-expanded="false"
+>
+  Dropdown
+</a>
+<ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+  <li>
+    <a className="dropdown-item" href="#">
+      Action
+    </a>
+  </li>
+  <li>
+    <a className="dropdown-item" href="#">
+      Another action
+    </a>
+  </li>
+  <li>
+    <hr className="dropdown-divider" />
+  </li>
+  <li>
+    <a className="dropdown-item" href="#">
+      Something else here
+    </a>
+  </li>
+</ul>
+</li> */
+}
