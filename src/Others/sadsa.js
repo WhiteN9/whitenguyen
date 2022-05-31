@@ -1,23 +1,31 @@
-<div className="row">
-<div className="col">
-  <div>
-    <img src="" alt="about_image"></img>
-    <div>border_Shape</div>
+<section className="portfolio">
+<div className="container">
+  <div className="row">
+    <div className="col">
+      <div>
+        <h2></h2>
+      </div>
+      <p>Text</p>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col">
+        <div className=""></div>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col">
+        <ul>
+            <li>All</li>
+            <li>JavaScript</li>
+            <li>Front End</li>
+            <li>Back End</li>
+        </ul>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col"></div>
   </div>
 </div>
-<div className="col">
-  <div>
-    <h2>About Me</h2>
-  </div>
-  <p>Text</p>
-  <p>Text</p>
-  <hr></hr>
-  <div>
-    <h5>Basic Info</h5>
-    <ul>
-      <li><span></span><p>Email</p></li>
-      <li><span></span><p>Website</p></li>
-    </ul>
-  </div>
-</div>
-</div>
+<div></div>
+</section>

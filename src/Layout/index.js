@@ -6,6 +6,7 @@ import About from "../Others/About";
 import Portfolio from "../Others/Portfolio";
 import Experience from "../Others/Experience";
 import Contact from "../Others/Contact";
+import Footer from "../Others/Footer";
 
 function Layout() {
   return (
@@ -13,9 +14,10 @@ function Layout() {
       <Header />
       <Home />
       <About />
-      {/* <Portfolio />
+      <Portfolio />
       <Experience />
-      <Contact /> */}
+      <Contact />
+      <Footer />
     </React.Fragment>
   );
 }
