@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="heading_s1">
+            <div className="">
               <h2>Contact Me</h2>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -44,7 +44,7 @@ const Contact = () => {
                     </button>
                   </div>
                   <div className="">
-                    <div id="alert-msg" className="alert-msg text-center"></div>
+                    <div id="" className="text-center"></div>
                   </div>
                 </div>
               </form>

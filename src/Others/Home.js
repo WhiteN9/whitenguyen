@@ -17,10 +17,10 @@ const Home = () => {
                   I enjoy challenges and enjoy learning more about the
                   technology world.
                 </p>
-                <a href="#" className="btn btn-default rounded-0 animation">
+                <a href="#" className="btn btn-default rounded-0">
                   Download CV
                 </a>
-                <a href="#" className="btn btn-outline-white rounded-0 animation">
+                <a href="#" className="btn btn-outline-white rounded-0">
                   Get In Touch
                 </a>
               </div>
