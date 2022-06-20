@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <React.Fragment>
-      <section id="home_section" className="">
+      <section id="home_section" className="mb-5">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-7">
@@ -14,11 +14,14 @@ const Home = () => {
                 </div>
                 <h4>I'm a student</h4>
                 <p>
-                  I enjoy challenges and enjoy learning more about the
-                  technology world.
+                  I discovered the fun in designing and developing cool things.
+                </p>
+                <p>
+                  Side goal: actually contributing to the great projects out
+                  there.
                 </p>
                 <a href="#" className="btn btn-default rounded-0">
-                  Download CV
+                  Download Resume
                 </a>
                 <a href="#" className="btn btn-outline-white rounded-0">
                   Get In Touch

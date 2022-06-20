@@ -2,392 +2,98 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" class="pb_70">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-6 col-lg-7 col-md-9 text-center">
-            <div
-              class="heading_s1 animation"
-              data-animation="fadeInUp"
-              data-animation-delay="0.02s"
-            >
+    <section id="portfolio" className="pb_70">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-xl-6 col-lg-7 col-md-9 text-center">
+            <div className="">
               <h2>My Portfolio</h2>
             </div>
-            <p
-              class="animation"
-              data-animation="fadeInUp"
-              data-animation-delay="0.03s"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              blandit massa enim. Nullam id varius nunc id varius nunc.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="cleafix small_divider"></div>
-          </div>
-        </div>
-        <div class="row mb-4 mb-md-5">
-          <div class="col-md-12 text-center">
-            <ul
-              class="list_none grid_filter animation"
-              data-animation="fadeInUp"
-              data-animation-delay="0.04s"
-            >
-              <li>
-                <a href="#" class="current" data-filter="*">
-                  all
-                </a>
-              </li>
-              <li>
-                <a href="#" data-filter=".brands">
-                  Branding
-                </a>
-              </li>
-              <li>
-                <a href="#" data-filter=".web-design">
-                  Web Design
-                </a>
-              </li>
-              <li>
-                <a href="#" data-filter=".development">
-                  Development
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <ul
-              class="grid_container gutter_medium work_col3 portfolio_gallery portfolio_style1 animation"
-              data-animation="fadeInUp"
-              data-animation-delay="0.04s"
-            >
-              <li class="grid-sizer"></li>
-              {/* <!-- START PORTFOLIO ITEM --> */}
-              <li class="grid_item web-design">
-                <div class="portfolio_item">
-                  <a href="#" class="image_link">
-                    <img
-                      src="assets/images/portfolio_item_small1.jpg"
-                      alt="image"
-                    />
-                  </a>
-                  <div class="portfolio_content">
-                    <div class="link_container">
-                      <a
-                        href="assets/images/portfolio_item1.jpg"
-                        class="image_popup"
-                      >
-                        <i class="ion-image"></i>
-                      </a>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        <i class="ion-plus"></i>
-                      </a>
-                    </div>
-                    <h5>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        Branded Products
-                      </a>
-                    </h5>
-                    <p>Web Design</p>
-                  </div>
-                </div>
-              </li>
-              {/* <!-- END PORTFOLIO ITEM -->
-                    <!-- START PORTFOLIO ITEM --> */}
-              <li class="grid_item brands web-design development">
-                <div class="portfolio_item">
-                  <a href="#" class="image_link">
-                    <img
-                      src="assets/images/portfolio_item_small2.jpg"
-                      alt="image"
-                    />
-                  </a>
-                  <div class="portfolio_content">
-                    <div class="link_container">
-                      <a
-                        href="assets/images/portfolio_item2.jpg"
-                        class="image_popup"
-                      >
-                        <i class="ion-image"></i>
-                      </a>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        <i class="ion-plus"></i>
-                      </a>
-                    </div>
-                    <h5>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        Visiting Card
-                      </a>
-                    </h5>
-                    <p>Branding, Web Design, Development</p>
-                  </div>
-                </div>
-              </li>
-              {/* <!-- END PORTFOLIO ITEM -->
-                    <!-- START PORTFOLIO ITEM --> */}
-              <li class="grid_item brands web-design">
-                <div class="portfolio_item">
-                  <div
-                    class="carousel_slider owl-carousel owl-theme dots_white"
-                    data-autoplay="true"
-                    data-loop="false"
-                    data-animate-in="fadeIn"
-                    data-animate-out="fadeOut"
-                    data-autoplay-timeout="3000"
-                    data-items="1"
-                  >
-                    <a href="#" class="image_link">
-                      <img
-                        src="assets/images/portfolio_item_small3.jpg"
-                        alt="image"
-                      />
-                    </a>
-                    <a href="#" class="image_link">
-                      <img
-                        src="assets/images/portfolio_item_small4.jpg"
-                        alt="image"
-                      />
-                    </a>
-                  </div>
-                  <div class="portfolio_content">
-                    <div class="link_container">
-                      <a
-                        href="assets/images/portfolio_item3.jpg"
-                        class="image_popup"
-                      >
-                        <i class="ion-images"></i>
-                      </a>
-                      <a
-                        href="assets/images/portfolio_item4.jpg"
-                        class="image_popup d-none"
-                      ></a>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        <i class="ion-plus"></i>
-                      </a>
-                    </div>
-                    <h5>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        Coffee Cup Mockup
-                      </a>
-                    </h5>
-                    <p>Branding, Web Design</p>
-                  </div>
-                </div>
-              </li>
-              {/* <!-- END PORTFOLIO ITEM -->
-                    <!-- START PORTFOLIO ITEM --> */}
-              <li class="grid_item brands development">
-                <div class="portfolio_item">
-                  <a href="#" class="image_link">
-                    <img
-                      src="assets/images/portfolio_item_small5.jpg"
-                      alt="image"
-                    />
-                  </a>
-                  <div class="portfolio_content">
-                    <div class="link_container">
-                      <a
-                        href="assets/images/portfolio_item5.jpg"
-                        class="image_popup"
-                      >
-                        <i class="ion-image"></i>
-                      </a>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        <i class="ion-plus"></i>
-                      </a>
-                    </div>
-                    <h5>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        Letter Design
-                      </a>
-                    </h5>
-                    <p>Branding, Development</p>
-                  </div>
-                </div>
-              </li>
-              {/* <!-- END PORTFOLIO ITEM -->
-                    <!-- START PORTFOLIO ITEM --> */}
-              <li class="grid_item brands web-design development">
-                <div class="portfolio_item">
-                  <a href="#" class="image_link">
-                    <img
-                      src="assets/images/portfolio_item_small6.jpg"
-                      alt="image"
-                    />
-                  </a>
-                  <div class="portfolio_content">
-                    <div class="link_container">
-                      <a
-                        href="assets/images/portfolio_item6.jpg"
-                        class="image_popup"
-                      >
-                        <i class="ion-image"></i>
-                      </a>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        <i class="ion-plus"></i>
-                      </a>
-                    </div>
-                    <h5>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        Branding Cap
-                      </a>
-                    </h5>
-                    <p>Branding, Web Design, Development</p>
-                  </div>
-                </div>
-              </li>
-              {/* <!-- END PORTFOLIO ITEM --> */}
-              {/* <!-- START PORTFOLIO ITEM --> */}
-              <li class="grid_item brands web-design development">
-                <div class="portfolio_item">
-                  <a href="#" class="image_link">
-                    <img
-                      src="assets/images/portfolio_item_small7.jpg"
-                      alt="image"
-                    />
-                  </a>
-                  <div class="portfolio_content">
-                    <div class="link_container">
-                      <a
-                        href="assets/images/portfolio_item7.jpg"
-                        class="image_popup"
-                      >
-                        <i class="ion-image"></i>
-                      </a>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        <i class="ion-plus"></i>
-                      </a>
-                    </div>
-                    <h5>
-                      <a href="#" data-toggle="modal" data-target="#pr_modal">
-                        Branding Cream
-                      </a>
-                    </h5>
-                    <p>Branding, Web Design, Development</p>
-                  </div>
-                </div>
-              </li>
-              {/* <!-- END PORTFOLIO ITEM --> */}
-            </ul>
           </div>
         </div>
       </div>
-      <div class="portfolio_modal modal fade" id="pr_modal">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-body">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">×</span>
-              </button>
-              <div class="row">
-                <div class="col-lg-8">
-                  <div
-                    class="carousel_slider owl-carousel owl-theme"
-                    data-margin="20"
-                    data-dots="false"
-                    data-loop="true"
-                    data-nav="true"
-                    data-autoplay="true"
-                    data-items="1"
-                  >
-                    <div class="item">
-                      <img
-                        src="assets/images/portfolio_img1.jpg"
-                        alt="portfolio_img1"
-                      />
-                    </div>
-                    <div class="item">
-                      <img
-                        src="assets/images/portfolio_img2.jpg"
-                        alt="portfolio_img2"
-                      />
-                    </div>
-                    <div class="item">
-                      <img
-                        src="assets/images/portfolio_img3.jpg"
-                        alt="portfolio_img3"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <ul class="list_none portfolio_info_box">
-                    <li>
-                      <span class="text-uppercase">CLIENT</span>Martyn Vorm
-                    </li>
-                    <li>
-                      <span class="text-uppercase">Date</span>Aprile 2018
-                    </li>
-                    <li>
-                      <span class="text-uppercase">Category</span>Design,
-                      Branding
-                    </li>
-                    <li>
-                      <span class="text-uppercase">PROJECT link</span>
-                      www.sitename.com
-                    </li>
-                    <li>
-                      <span class="text-uppercase">SHARE </span>
-                      <ul class="list_none social_icons border_social rounded_social">
-                        <li>
-                          <a href="#">
-                            <i class="ion-social-facebook"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="ion-social-twitter"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="ion-social-googleplus"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="ion-social-instagram-outline"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="ion-social-pinterest"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="pf_content">
-                    <div class="heading_s1">
-                      <h2>Branded Products</h2>
-                    </div>
-                    <p>
-                      Nam eget neque pellentesque efficitur neque at, ornare
-                      orci. Vestibulum ligula orci volutpat id aliquet eget,
-                      consectetur eget ante. Duis pharetra for nec rhoncus felis
-                      sagittis nec amet ultricies lorem.
-                    </p>
-                    <p>
-                      All the Lorem Ipsum generators on the Internet tend to
-                      repeat predefined chunks as necessary.Iipsum dolor sit
-                      amet consectetur adipiscing elitllus blandit massa enim.
-                    </p>
-                  </div>
-                </div>
-              </div>
+      <div className="row row-cols-1 row-cols-md-2 g-4">
+        <div className="col">
+          <div className="card">
+            <img
+              src="https://user-images.githubusercontent.com/39269842/174505823-5f854dca-b098-4cc7-98ef-312e4d80174d.png"
+              className="card-img-top"
+              alt="we-love-movies-database-app"
+            />
+            <div className="card-body">
+              <h5 className="card-title">We Love Movies</h5>
+              <p className="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <img
+              src="https://user-images.githubusercontent.com/39269842/174505807-f25e4e27-4798-4617-9307-dbf2f9498fe6.png"
+              className="card-img-top"
+              alt="flash-card-app"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Flash Card as Study Tool</h5>
+              <p className="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <img
+              src="https://user-images.githubusercontent.com/39269842/174505811-8da86e16-2e61-4bce-9b76-40679a2f05a2.png"
+              className="card-img-top"
+              alt="local-library-app"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Local Library Administration</h5>
+              <p className="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <img
+              src="https://user-images.githubusercontent.com/39269842/174505801-696740bc-d90d-47d6-aafe-a8490564709d.png"
+              className="card-img-top"
+              alt="decoder-ring-app"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Decoder Ring</h5>
+              <p className="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <img
+              src="https://user-images.githubusercontent.com/39269842/174505832-beb97b1c-873f-48e2-85b7-d8f9a0941c1f.png"
+              className="card-img-top"
+              alt="thinkfulbnb"
+            />
+            <div className="card-body">
+              <h5 className="card-title">ThinkfulBnB Landing Page</h5>
+              <p className="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
             </div>
           </div>
         </div>
