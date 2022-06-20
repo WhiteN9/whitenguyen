@@ -12,8 +12,8 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="row row-cols-1 row-cols-md-2 g-4">
-        <div className="col">
+      <div className="row row-cols-1 row-cols-md-2 g-0 gy-4">
+        <div className="col px-5">
           <div className="card">
             <img
               src="https://user-images.githubusercontent.com/39269842/174505823-5f854dca-b098-4cc7-98ef-312e4d80174d.png"
@@ -30,7 +30,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col px-5">
           <div className="card">
             <img
               src="https://user-images.githubusercontent.com/39269842/174505807-f25e4e27-4798-4617-9307-dbf2f9498fe6.png"
@@ -47,7 +47,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col px-5">
           <div className="card">
             <img
               src="https://user-images.githubusercontent.com/39269842/174505811-8da86e16-2e61-4bce-9b76-40679a2f05a2.png"
@@ -64,7 +64,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col px-5">
           <div className="card">
             <img
               src="https://user-images.githubusercontent.com/39269842/174505801-696740bc-d90d-47d6-aafe-a8490564709d.png"
@@ -80,7 +80,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col px-5">
           <div className="card">
             <img
               src="https://user-images.githubusercontent.com/39269842/174505832-beb97b1c-873f-48e2-85b7-d8f9a0941c1f.png"

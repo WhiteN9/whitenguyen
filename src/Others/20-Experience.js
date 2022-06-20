@@ -12,7 +12,7 @@ const Experience = () => {
         </div>
       </div>
       {/* Thinkful - Coding Bootcamp */}
-      <div className="row experience-row">
+      <div className="row g-0 m-4 experience-row">
         <div className="col-md-3">
           <a href="#">
             <img
@@ -35,7 +35,7 @@ const Experience = () => {
         </div>
       </div>
       {/* Eurofins USA - Donor & Product Testing - Pre Transplant Testing*/}
-      <div className="row experience-row">
+      <div className="row g-0 m-4 experience-row">
         <div className="col-md-3">
           <a href="https://www.thinkful.com/">
             <img

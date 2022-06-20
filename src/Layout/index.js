@@ -1,10 +1,10 @@
 import React from "react";
 
-import Header from "../Others/Header";
-import Home from "../Others/Home";
-import About from "../Others/About";
-import Portfolio from "../Others/Portfolio";
-import Experience from "../Others/Experience";
+import Header from "../Others/01-Header";
+import Home from "../Others/05-Home";
+import About from "../Others/10-About";
+import Portfolio from "../Others/15-Portfolio";
+import Experience from "../Others/20-Experience";
 
 function Layout() {
   return (
@@ -13,7 +13,7 @@ function Layout() {
       <Home />
       <About />
       <Portfolio />
-      <Experience />
+      <Experience /> 
     </React.Fragment>
   );
 }
