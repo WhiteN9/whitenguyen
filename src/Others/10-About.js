@@ -22,45 +22,40 @@ const About = () => {
               </div>
               <p>
                 I enjoy challenges and enjoy learning more about the technology
-                world. After I joined the research laboratory field, I've found
-                a great interest in the software that was developed for us to
-                use. I decided to study further to be able to develop useful and
-                better tools for the research and healthcare field.
+                world. After I joined the research laboratory field, I found a
+                great interest in the applications developers have built for us
+                to use. I decided to study further to develop useful and better
+                tools for the research and healthcare field.
               </p>
               <p>
-                I've learned the great techniques and knowledge from Thinkful
-                involved developing applications using JavaScript and PERN.
-                Now I am looking for new opportunites to broaden my
-                developer skill-set.
+                I've learned great techniques and knowledge from Thinkful
+                involved in developing applications using JavaScript and PERN.
+                Now I am looking for new opportunities to broaden my skill-set.
               </p>
               <hr />
               <div className="mb-4">
                 <h5>Basic Info</h5>
               </div>
-              <ul className="">
-                <li>
-                  <span className="title">From</span>
-                  <p>Denver, CO</p>
-                </li>
-                <li>
-                  <span className="title">Phone No:</span>
-                  <p>+ (303) 552-2605</p>
-                </li>
-                <li>
-                  <span className="title">Email:</span>
-                  <a href="mailto:info@sitename.com">
+              <dl class="row">
+                <dt class="col-sm-3">From: </dt>
+                <dd class="col-sm-9">Denver, CO</dd>
+
+                <dt class="col-sm-3">Phone No: </dt>
+                <dd class="col-sm-9">+(303) 552-2605</dd>
+
+                <dt class="col-sm-3">Email: </dt>
+                <dd class="col-sm-9">
+                  <a href="mailto:whitenguyen0909@gmail.com">
                     whitenguyen0909@gmail.com
                   </a>
-                </li>
-                <li>
-                  <span className="title">Website:</span>
-                  <p> www.mywebsite.com </p>
-                </li>
-                <li>
-                  <span className="title">Status:</span>
-                  <p>Available to Work</p>
-                </li>
-              </ul>
+                </dd>
+
+                <dt class="col-sm-3 text-truncate">Website: </dt>
+                <dd class="col-sm-9">www.mywebsite.com</dd>
+
+                <dt class="col-sm-3">Status: </dt>
+                <dd class="col-sm-9">Available to Work</dd>
+              </dl>
             </div>
           </div>
         </div>

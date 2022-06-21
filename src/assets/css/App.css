@@ -1,27 +1,58 @@
 /*===================================*
-  05. BANNER SECTION
+  00. GENERAL CSS
 *===================================*/
 
-.banner_content h2 {
-	font-size: 30px;
-	font-weight: 700;
-	margin-bottom: 25px;
-}
-.banner_content h4 {
-	margin-bottom: 20px;
-}
-.banner_content p {
-    margin-bottom: 25px;
+a {
+  color: #8564cc;
+  text-decoration: none;
 }
 
-.banner_content {
-    margin-top: 100px;
+a:hover {
+  color: #504469;
 }
 
+body {
+  position: relative;
+}
+
+
+/*===================================*
+  01. HEADER  SECTION
+*===================================*/
 .btn-default {
   border: 1px solid #ddc7e4;
   color: #ddc7e4;
 }
+
+.btn-default:hover {
+  color: #8564cc;
+}
+
+/*===================================*
+  05. BANNER SECTION
+*===================================*/
+
+.banner_content h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.banner_content h4 {
+  margin-bottom: 20px;
+}
+
+.banner_content p {
+  margin-bottom: 25px;
+}
+
+.banner_content {
+  margin-top: 100px;
+}
+
+/*===================================*
+  Cool Colors
+*===================================*/
 
 /* #fdfbcb
 rgba(253,251,203,255)

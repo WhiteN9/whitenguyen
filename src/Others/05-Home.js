@@ -17,12 +17,12 @@ const Home = () => {
           <div className="col-md-8">
             <div className="text-center banner_content">
               <h2>I'm White Nguyen</h2>
-              <h4>I'm a Software Developer student</h4>
+              <h4>I'm a Fullstack Developer student</h4>
               <p>
                 I discovered the fun in designing and developing cool things.
               </p>
               <p>
-                Side goal: actually contributing to the great projects out
+                Big goal: contribute to the great projects out
                 there.
               </p>
               <a href="#" className="btn btn-default btn-lg rounded-0">
