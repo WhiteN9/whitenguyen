@@ -13,39 +13,41 @@ const Experience = () => {
       </div>
       {/* Thinkful - Coding Bootcamp */}
       <div className="row g-0 m-4 experience-row">
-        <div className="col-md-3">
-          <a href="#">
+        <div className="col-md-3 mx-auto">
+          <a href="https://www.thinkful.com/">
             <img
               className="img-fluid"
+              style={{ height: "50%" }}
               src="https://images.ctfassets.net/344fh7n2hs9h/4QnjDGHAGIIXaCylyM0wMQ/0c4f5a969b7065cd3db431de893be958/logo.svg"
               alt=""
             ></img>
           </a>
         </div>
-        <div className="col-md-7">
-          <a href="#">
+        <div className="col-md-7 mx-auto">
+          <a href="https://www.thinkful.com/">
             <h3>Thinkful</h3>
           </a>
           <h5>Software Engineer Student | March 2022 - August 2022</h5>
           <p>
             Learned industry best practices and software development standards
-            with a focus on JavaScript, HTML5, CSS3, Node.js, and React.
-            Also backend developing and unit testings subjects. 
+            with a focus on JavaScript, HTML5, CSS3, Node.js, and React. Also
+            backend developing and unit testings subjects.
           </p>
         </div>
       </div>
       {/* Eurofins USA - Donor & Product Testing - Pre Transplant Testing*/}
       <div className="row g-0 m-4 experience-row">
-        <div className="col-md-3">
-          <a href="https://www.thinkful.com/">
+        <div className="col-md-3 mx-auto">
+          <a href="https://www.eurofinsus.com/clinical-diagnostics/eurofins-donor-product-testing/">
             <img
               className="img-fluid"
+              style={{ height: "50%" }}
               src="https://cdnmedia.eurofins.com/eurofins-us/media/1706848/eurofinsdonor-product-testing.jpg"
               alt=""
             ></img>
           </a>
         </div>
-        <div className="col-md-7">
+        <div className="col-md-7 mx-auto">
           <a href="https://www.eurofinsus.com/clinical-diagnostics/eurofins-donor-product-testing/">
             <h3>Eurofins DPT - Pre-transplant Testing</h3>
           </a>

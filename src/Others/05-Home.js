@@ -1,12 +1,21 @@
 import React from "react";
+// let banner_img2 = require("../assets/images/banner_img2.jpg"); same as below
+import banner_img2 from "../assets/images/banner_img3-scaled-down.jpg";
+
+let homeStyle = {
+  backgroundSize: "auto",
+  backgroundImage: `url(${banner_img2})`,
+  height: '100vh',
+  color: 'white',
+};
 
 const Home = () => {
   return (
-    <section id="home_section" className="mb-5">
+    <section id="home_section" className="mb-5" style={homeStyle}>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-7">
-            <div className="text-center">
+          <div className="col-md-8">
+            <div className="text-center border border-primary banner_content">
               <h2>I'm White Nguyen</h2>
               <h4>I'm a Software Developer student</h4>
               <p>
@@ -16,10 +25,10 @@ const Home = () => {
                 Side goal: actually contributing to the great projects out
                 there.
               </p>
-              <a href="#" className="btn btn-default rounded-0">
-                Download Resume
+              <a href="#" className="btn btn-default btn-lg rounded-0">
+                Resume
               </a>
-              <a href="#" className="btn btn-outline-white rounded-0">
+              <a href="#" className="btn btn-default btn-lg rounded-0">
                 Get In Touch
               </a>
             </div>

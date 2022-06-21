@@ -2,9 +2,9 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="pb_70">
+    <section id="portfolio" className="mb-5">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mb-3">
           <div className="col-xl-6 col-lg-7 col-md-9 text-center">
             <div className="">
               <h2>My Portfolio</h2>
@@ -13,10 +13,10 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="row row-cols-1 row-cols-md-2 g-0 gy-4">
-        <div className="col px-5">
+        <div className="col col-lg-3 px-3 d-flex align-items-stretch">
           <div className="card">
             <img
-              src="https://user-images.githubusercontent.com/39269842/174505823-5f854dca-b098-4cc7-98ef-312e4d80174d.png"
+              src="https://user-images.githubusercontent.com/39269842/174650793-6f1e0ea5-67cb-455b-b0a6-a7a31746b766.png"
               className="card-img-top"
               alt="we-love-movies-database-app"
             />
@@ -30,10 +30,10 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col px-5">
+        <div className="col col-lg-3 px-3 d-flex align-items-stretch">
           <div className="card">
             <img
-              src="https://user-images.githubusercontent.com/39269842/174505807-f25e4e27-4798-4617-9307-dbf2f9498fe6.png"
+              src="https://user-images.githubusercontent.com/39269842/174650792-d41d510a-ebfd-4eb5-826e-b93a35eb7135.png"
               className="card-img-top"
               alt="flash-card-app"
             />
@@ -47,10 +47,10 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col px-5">
+        <div className="col col-lg-3 px-3 d-flex align-items-stretch">
           <div className="card">
             <img
-              src="https://user-images.githubusercontent.com/39269842/174505811-8da86e16-2e61-4bce-9b76-40679a2f05a2.png"
+              src="https://user-images.githubusercontent.com/39269842/174650791-d4bd0999-6e71-47d8-ba49-8df57f90fc72.png"
               className="card-img-top"
               alt="local-library-app"
             />
@@ -64,10 +64,10 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col px-5">
+        <div className="col col-lg-3 px-3 d-flex align-items-stretch">
           <div className="card">
             <img
-              src="https://user-images.githubusercontent.com/39269842/174505801-696740bc-d90d-47d6-aafe-a8490564709d.png"
+              src="https://user-images.githubusercontent.com/39269842/174650790-9367224e-dc3e-4fa4-a328-f3703ee15d31.png"
               className="card-img-top"
               alt="decoder-ring-app"
             />
@@ -80,10 +80,10 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col px-5">
+        <div className="col col-lg-3 px-3 d-flex align-items-stretch">
           <div className="card">
             <img
-              src="https://user-images.githubusercontent.com/39269842/174505832-beb97b1c-873f-48e2-85b7-d8f9a0941c1f.png"
+              src="https://user-images.githubusercontent.com/39269842/174650799-8b4f313b-4f8a-43a0-92ac-8e6a8f8732d5.png"
               className="card-img-top"
               alt="thinkfulbnb"
             />

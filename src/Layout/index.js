@@ -19,3 +19,20 @@ function Layout() {
 }
 
 export default Layout;
+
+// import React from "react";
+// // let banner_img2 = require("../assets/images/banner_img2.jpg"); same as below
+// import banner_img2 from "../assets/images/banner_img3.jpg"
+
+// let homeStyle = {
+//   width: 'auto',
+//   backgroundImage: `url(${banner_img2})`,
+// };
+
+// const Home = () => {
+//   return (
+//     <section
+//       id="home_section"
+//       className="mb-5"
+//       // style={homeStyle}
+//     ></section>

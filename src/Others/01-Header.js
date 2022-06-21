@@ -1,11 +1,15 @@
 import React from "react";
 // import { Link } from "react-scroll";
 
+let headerStyle = {
+  backgroundColor: '#010101',
+};
+
 const Header = () => {
   return (
     <header className="">
-      <div className="container mb-5 pt-5">
-        <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div className="container">
+        <nav className="navbar navbar-dark fixed-top navbar-expand-lg" style={headerStyle}>
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               W.

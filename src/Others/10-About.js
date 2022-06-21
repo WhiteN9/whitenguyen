@@ -8,7 +8,7 @@ const About = () => {
           <div className="col-md-5">
             <div className="">
               <img
-                src="assets/images/about_img3.jpg"
+                src={require("../assets/images/about_img3.jpg")}
                 className="img-fluid"
                 alt="about_img3"
               />
@@ -22,17 +22,16 @@ const About = () => {
               </div>
               <p>
                 I enjoy challenges and enjoy learning more about the technology
-                world. I graduated with a B.S in Biochemistry from Metropolitan
-                State University of Denver. After I joined the research
-                laboratory field, I've found a great interest in the software
-                that was developed for us to use. I decided to study further to
-                be able to develop useful and better tools for the research and
-                healthcare field.
+                world. After I joined the research laboratory field, I've found
+                a great interest in the software that was developed for us to
+                use. I decided to study further to be able to develop useful and
+                better tools for the research and healthcare field.
               </p>
               <p>
-                My experience from Thinkful revolves around developing
-                applications using JavaScript and PERN. Currently I am looking
-                for new opportunites to broaden my developer skill-set.
+                I've learned the great techniques and knowledge from Thinkful
+                involved developing applications using JavaScript and PERN.
+                Now I am looking for new opportunites to broaden my
+                developer skill-set.
               </p>
               <hr />
               <div className="mb-4">
