@@ -49,10 +49,10 @@ const About = () => {
                     whitenguyen0909@gmail.com
                   </a>
                 </dd>
-
                 <dt class="col-sm-3 text-truncate">Website: </dt>
-                <dd class="col-sm-9">www.mywebsite.com</dd>
-
+                <dd class="col-sm-9">
+                  <a href="www.mywebsite.com">www.mywebsite.com</a>
+                </dd>
                 <dt class="col-sm-3">Status: </dt>
                 <dd class="col-sm-9">Available to Work</dd>
               </dl>

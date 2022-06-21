@@ -10,6 +10,7 @@ const Header = () => {
     <header className="">
       <div className="container">
         <nav
+          id="scroll-list"
           className="navbar navbar-dark fixed-top navbar-expand-lg"
           style={headerStyle}
         >
@@ -39,7 +40,7 @@ const Header = () => {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a
-                    className="nav-link active"
+                    className="nav-link"
                     aria-current="page"
                     href="#home_section"
                   >

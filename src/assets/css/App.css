@@ -11,6 +11,11 @@ a:hover {
   color: #504469;
 }
 
+a:active {
+  color: #ddc7e4;
+  background-color: #ddc7e4;
+}
+
 body {
   position: relative;
 }
