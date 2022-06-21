@@ -13,10 +13,23 @@
 .banner_content p {
     margin-bottom: 25px;
 }
-.banner_content.text_white p {
-	color: #fff;
-}
 
 .banner_content {
     margin-top: 100px;
 }
+
+.btn-default {
+  border: 1px solid #ddc7e4;
+  color: #ddc7e4;
+}
+
+/* #fdfbcb
+rgba(253,251,203,255)
+
+#504469
+rgb(80,68,105)
+
+#a48ba0
+rgb(164,139,160)
+
+#ddc7e4 */

@@ -2,17 +2,24 @@ import React from "react";
 // import { Link } from "react-scroll";
 
 let headerStyle = {
-  backgroundColor: '#010101',
+  backgroundColor: "#010101",
 };
 
 const Header = () => {
   return (
     <header className="">
       <div className="container">
-        <nav className="navbar navbar-dark fixed-top navbar-expand-lg" style={headerStyle}>
+        <nav
+          className="navbar navbar-dark fixed-top navbar-expand-lg"
+          style={headerStyle}
+        >
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              W.
+            <a className="navbar-brand" href="#home_section">
+              <img
+                class="logo_default"
+                src={require("../assets/images/logo_light.png")}
+                alt="logo"
+              />
             </a>
             <button
               className="navbar-toggler"
@@ -31,28 +38,27 @@ const Header = () => {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="#home_section"
+                  >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#about">
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#portfolio">
                     Portfolio
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#experience">
                     Experience
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Contact
                   </a>
                 </li>
               </ul>

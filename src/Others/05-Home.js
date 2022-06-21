@@ -5,8 +5,8 @@ import banner_img2 from "../assets/images/banner_img3-scaled-down.jpg";
 let homeStyle = {
   backgroundSize: "auto",
   backgroundImage: `url(${banner_img2})`,
-  height: '100vh',
-  color: 'white',
+  height: "100vh",
+  color: "white",
 };
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-8">
-            <div className="text-center border border-primary banner_content">
+            <div className="text-center banner_content">
               <h2>I'm White Nguyen</h2>
               <h4>I'm a Software Developer student</h4>
               <p>
@@ -28,8 +28,17 @@ const Home = () => {
               <a href="#" className="btn btn-default btn-lg rounded-0">
                 Resume
               </a>
-              <a href="#" className="btn btn-default btn-lg rounded-0">
-                Get In Touch
+              <a
+                href="https://linkedin.com/in/whitenguyen"
+                className="btn btn-default btn-lg rounded-0"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/WhiteN9"
+                className="btn btn-default btn-lg rounded-0"
+              >
+                GitHub
               </a>
             </div>
           </div>

@@ -1,3 +1,12 @@
+# Portfolio page.
+
+## To do: 
+Dark mode
+
+
+## Color that I like:
+Anything that is along the line of saturated purple
+
 #fdfbcb
 rgba(253,251,203,255)
 
@@ -8,3 +17,4 @@ rgb(80,68,105)
 rgb(164,139,160)
 
 #ddc7e4
+
