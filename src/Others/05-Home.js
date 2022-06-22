@@ -21,22 +21,25 @@ const Home = () => {
               <p>
                 I discovered the fun in designing and developing cool things.
               </p>
-              <p>
-                Big goal: contribute to the great projects out
-                there.
-              </p>
-              <a href="#" className="btn btn-default btn-lg rounded-0">
+              <p>Big goal: contribute to the great projects out there.</p>
+              <a
+                href={require("../assets/resume/WhiteNguyenResume.pdf")}
+                className="btn btn-default btn-lg rounded-0"
+                target="_blank"
+              >
                 Resume
               </a>
               <a
                 href="https://linkedin.com/in/whitenguyen"
                 className="btn btn-default btn-lg rounded-0"
+                target="_blank"
               >
                 LinkedIn
               </a>
               <a
                 href="https://github.com/WhiteN9"
                 className="btn btn-default btn-lg rounded-0"
+                target="_blank"
               >
                 GitHub
               </a>

@@ -42,7 +42,7 @@ const Experience = () => {
             <img
               className="img-fluid"
               style={{ height: "50%" }}
-              src="https://cdnmedia.eurofins.com/eurofins-us/media/1706848/eurofinsdonor-product-testing.jpg"
+              src={require("../assets/images/eurofins_dpt.png")}
               alt=""
             ></img>
           </a>

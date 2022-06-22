@@ -8,7 +8,7 @@ const About = () => {
           <div className="col-md-5">
             <div className="">
               <img
-                src={require("../assets/images/about_img3.jpg")}
+                src={require("../assets/images/about_img_self_picture.jpg")}
                 className="img-fluid"
                 alt="about_img3"
               />

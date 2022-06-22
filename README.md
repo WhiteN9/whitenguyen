@@ -2,11 +2,10 @@
 
 ## To do: 
 Dark mode
-Spyscroll
 Portfolio should be more condensed
 A mini thumbnail and then a pop up thumbnail
-Resume link
 Dynamic portfolio page
+Target blanks?
 
 ## Color that I like:
 Anything that is along the line of saturated purple
