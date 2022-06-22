@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/whitenguyen/static/css/main.3502ef4e.css",
-    "main.js": "/whitenguyen/static/js/main.df0f4604.js",
+    "main.js": "/whitenguyen/static/js/main.d22a8235.js",
     "static/media/banner_img3-scaled-down.jpg": "/whitenguyen/static/media/banner_img3-scaled-down.617cb1f0cb74bfb46c76.jpg",
-    "static/media/about_img3.jpg": "/whitenguyen/static/media/about_img3.c25d2e93bf3d3c96615e.jpg",
+    "static/media/WhiteNguyenResume.pdf": "/whitenguyen/static/media/WhiteNguyenResume.c89eaf48cfd8fd6e8b7d.pdf",
+    "static/media/about_img_self_picture.jpg": "/whitenguyen/static/media/about_img_self_picture.3e58fc09cb96d414299b.jpg",
+    "static/media/eurofins_dpt.png": "/whitenguyen/static/media/eurofins_dpt.58d4a9305831055e31bf.png",
     "static/media/logo_light.png": "/whitenguyen/static/media/logo_light.20d07769dc5ef22eced2.png",
     "index.html": "/whitenguyen/index.html",
     "main.3502ef4e.css.map": "/whitenguyen/static/css/main.3502ef4e.css.map",
-    "main.df0f4604.js.map": "/whitenguyen/static/js/main.df0f4604.js.map"
+    "main.d22a8235.js.map": "/whitenguyen/static/js/main.d22a8235.js.map"
   },
   "entrypoints": [
     "static/css/main.3502ef4e.css",
-    "static/js/main.df0f4604.js"
+    "static/js/main.d22a8235.js"
   ]
 }
