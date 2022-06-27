@@ -1,14 +1,14 @@
 # Portfolio page.
 
 ## To do: 
-Dark mode
-Portfolio should be more condensed
-A mini thumbnail and then a pop up thumbnail
-Dynamic portfolio page
-Target blanks?
-Add credit for myself
-Make navigation bar more noticeable
-Swap the content about me and info
+1. Dark mode
+2. Portfolio should be more condensed
+3. A mini thumbnail and then a pop up thumbnail
+4. Dynamic portfolio page
+5. Target blanks?
+6. Add credit for myself
+7. Make navigation bar more noticeable
+8. Swap the content about me and info
 
 ## Color that I like:
 Anything that is along the line of saturated purple
