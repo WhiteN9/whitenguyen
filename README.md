@@ -1,5 +1,5 @@
-# Portfolio page.
-
+# White's Portfolio page.
+###### made by White, inspired by many other portfolio layouts
 ## To do: 
 1. Dark mode
 2. Portfolio should be more condensed
