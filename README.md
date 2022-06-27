@@ -6,6 +6,9 @@ Portfolio should be more condensed
 A mini thumbnail and then a pop up thumbnail
 Dynamic portfolio page
 Target blanks?
+Add credit for myself
+Make navigation bar more noticeable
+Swap the content about me and info
 
 ## Color that I like:
 Anything that is along the line of saturated purple
