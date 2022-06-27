@@ -1,5 +1,6 @@
 # White's Portfolio page.
 ###### made by White, inspired by many other portfolio layouts
+
 ## To do: 
 1. Dark mode
 2. Portfolio should be more condensed
@@ -24,3 +25,4 @@ rgb(164,139,160)
 
 #ddc7e4
 
+Made with mobile-first approach
