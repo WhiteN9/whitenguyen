@@ -3,17 +3,16 @@
 *===================================*/
 
 a {
-  color: #8564cc;
+  color: #00ced1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #504469;
+  color: #008b8b;
 }
 
 a:active {
-  color: #ddc7e4;
-  background-color: #ddc7e4;
+  color: #00ced1
 }
 
 body {
@@ -25,12 +24,12 @@ body {
   01. HEADER  SECTION
 *===================================*/
 .btn-default {
-  border: 1px solid #ddc7e4;
-  color: #ddc7e4;
+  border: 1px solid #00ffff;
+  color: #00ffff;
 }
 
 .btn-default:hover {
-  color: #8564cc;
+  color: #9bddff
 }
 
 /*===================================*
@@ -59,13 +58,10 @@ body {
   Cool Colors
 *===================================*/
 
-/* #fdfbcb
-rgba(253,251,203,255)
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(0, 255, 255);
+}
 
-#504469
-rgb(80,68,105)
-
-#a48ba0
-rgb(164,139,160)
-
-#ddc7e4 */
+.navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.15);
+}
