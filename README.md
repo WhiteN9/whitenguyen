@@ -31,3 +31,6 @@ rgb(164,139,160)
 ## Done:
 Use cyan to make letters more noticeable
 Made with mobile-first approach
+
+## To redeploy:
+Run `npm run deploy`
