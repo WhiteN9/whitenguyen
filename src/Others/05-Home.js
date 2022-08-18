@@ -26,6 +26,7 @@ const Home = () => {
                 href={require("../assets/resume/WhiteNguyenResume.pdf")}
                 className="btn btn-default btn-lg rounded-0"
                 target="_blank"
+                rel="noreferrer"
               >
                 Resume
               </a>
@@ -33,6 +34,7 @@ const Home = () => {
                 href="https://linkedin.com/in/whitenguyen"
                 className="btn btn-default btn-lg rounded-0"
                 target="_blank"
+                rel="noreferrer"
               >
                 LinkedIn
               </a>
@@ -40,8 +42,22 @@ const Home = () => {
                 href="https://github.com/WhiteN9"
                 className="btn btn-default btn-lg rounded-0"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
+              </a>
+              <a href="http://google.com/" target="blank">
+                Google
+              </a>
+              <a href="http://en.wikipedia.org/" target="blank">
+                Wikipedia
+              </a>
+
+              <a href="http://google.com/" target="_blank">
+                Google
+              </a>
+              <a href="http://en.wikipedia.org/" target="_blank">
+                Wikipedia
               </a>
             </div>
           </div>

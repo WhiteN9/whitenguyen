@@ -6,7 +6,7 @@ let headerStyle = {
 
 const Header = () => {
   return (
-    <header className="">
+    <header id="header">
       <div className="container">
         <nav
           id="scroll-list"
