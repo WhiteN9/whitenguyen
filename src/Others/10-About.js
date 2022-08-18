@@ -36,25 +36,25 @@ const About = () => {
               <div className="mb-4">
                 <h5>Basic Info</h5>
               </div>
-              <dl class="row">
-                <dt class="col-sm-3">From: </dt>
-                <dd class="col-sm-9">Denver, CO</dd>
+              <dl className="row">
+                <dt className="col-sm-3">From: </dt>
+                <dd className="col-sm-9">Denver, CO</dd>
 
-                <dt class="col-sm-3">Phone No: </dt>
-                <dd class="col-sm-9">+(303) 552-2605</dd>
+                <dt className="col-sm-3">Phone No: </dt>
+                <dd className="col-sm-9">+(303) 552-2605</dd>
 
-                <dt class="col-sm-3">Email: </dt>
-                <dd class="col-sm-9">
+                <dt className="col-sm-3">Email: </dt>
+                <dd className="col-sm-9">
                   <a href="mailto:whitenguyen0909@gmail.com">
                     whitenguyen0909@gmail.com
                   </a>
                 </dd>
-                <dt class="col-sm-3 text-truncate">Website: </dt>
-                <dd class="col-sm-9">
-                  <a href="www.mywebsite.com">www.mywebsite.com</a>
+                <dt className="col-sm-3 text-truncate">Website: </dt>
+                <dd className="col-sm-9">
+                  <a href="https://whiten9.github.io/whitenguyen/">whiten9.github.io/whitenguyen</a>
                 </dd>
-                <dt class="col-sm-3">Status: </dt>
-                <dd class="col-sm-9">Available to Work</dd>
+                <dt className="col-sm-3">Status: </dt>
+                <dd className="col-sm-9">Available to Work</dd>
               </dl>
             </div>
           </div>

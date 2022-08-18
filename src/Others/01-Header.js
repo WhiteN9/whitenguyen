@@ -16,7 +16,6 @@ const Header = () => {
           <div className="container-fluid">
             <a className="navbar-brand" href="#home_section">
               <img
-                class="logo_default"
                 src={require("../assets/images/logo_light.png")}
                 alt="logo"
               />

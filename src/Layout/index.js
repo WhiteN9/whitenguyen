@@ -5,6 +5,7 @@ import Home from "../Others/05-Home";
 import About from "../Others/10-About";
 import Portfolio from "../Others/15-Portfolio";
 import Experience from "../Others/20-Experience";
+import Footer from "../Others/30-Footer";
 
 function Layout() {
   return (
@@ -13,26 +14,10 @@ function Layout() {
       <Home />
       <About />
       <Portfolio />
-      <Experience /> 
+      <Experience />
+      <Footer />
     </React.Fragment>
   );
 }
 
 export default Layout;
-
-// import React from "react";
-// // let banner_img2 = require("../assets/images/banner_img2.jpg"); same as below
-// import banner_img2 from "../assets/images/banner_img3.jpg"
-
-// let homeStyle = {
-//   width: 'auto',
-//   backgroundImage: `url(${banner_img2})`,
-// };
-
-// const Home = () => {
-//   return (
-//     <section
-//       id="home_section"
-//       className="mb-5"
-//       // style={homeStyle}
-//     ></section>
