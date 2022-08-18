@@ -46,19 +46,6 @@ const Home = () => {
               >
                 GitHub
               </a>
-              <a href="http://google.com/" target="blank">
-                Google
-              </a>
-              <a href="http://en.wikipedia.org/" target="blank">
-                Wikipedia
-              </a>
-
-              <a href="http://google.com/" target="_blank">
-                Google
-              </a>
-              <a href="http://en.wikipedia.org/" target="_blank">
-                Wikipedia
-              </a>
             </div>
           </div>
         </div>
